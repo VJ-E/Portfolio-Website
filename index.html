@@ -1,41 +1,71 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>My Portfolio</title>
-    <link rel="icon" href="assets/pro.jpeg">
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <header>
-        <h1>Portfolio</h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="icon" href="assets/pro.jpeg">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+    <header id="top">
+        <nav class="navbar">
+            <div class="navlinks">
+                <a class = "navi" href="#home">Home</a>
+                <a class = "navi" href="#about">About</a>
+                <a class = "navi" href="#skills">Skills</a>
+                <a class = "navi" href="#skills">Experience</a>
+                <a class = "navi" href="#skills">Projects</a>
+                <a class = "navi" href="#contact">Contact Me</a>
+            </div>
         </nav>
     </header>
     <section class="home" id="home">
-        <h1>Home</h1>
-        <h3>Hello and Welcome</h3>
+        <img src="assets/photo2.jpg">
+        <h1>HEY, I'M VIJAY</h1>
+        <p>Software Engineer in the making | Competitive Programmer | AI & ML Enthusiast</p>
+        <div class = "home-buttons">
+            <a href="#skills" class="home-btn">Projects</a>
+            <a href="assets/Vijay_Resume.docx" class="home-btn">Resume</a>
+        </div>
     </section>
     <section class="about" id="about">
-        <h1>About:</h1>
-        <h3>I'm Vijay</h3>
+        <h1 id="about-text">About Me</h1>
+        <p>I'm Vijay, A B.E 2nd year student at KIT <br> Pursuing my degree in Artificial intelligence & Machine Learning<br><br>
+            I am a Machine Learning Enthusiast & Front-end Web Developer.
+        </p>
+        <div class="about-buttons">
+            <a href="#contact" class="about-btn">Contact Me</a>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h1 id="projects-text">Projects</h1>
     </section>
     <section class="skills" id="skills">
-        <h1>Skills</h1>
-        <ul>
-            <li>Python</li>
-            <li>C</li>
-            <li>C++</li>
-            <li>Frontend</li>
-        </ul>
-    </section>
-    <section class="contact" id="contact">
-        <a href="https://linkedin.com/in/vj-e" target="_blank">My LinkedIn Profile</a>
+        <h1 id="skills-text">Skills</h1>
+        <div class="skills-items">
+            <img src="assets/python.png">
+            <img src="assets/letter-c.png">
+            <img src="assets/c-.png">
+            <!-- <h3>Python</h3>
+            <h3>C</h3>
+            <h3>C++</h3> -->
+        </div>
         <br>
-        <a href="https://github.com/VJ-E" target="_blank">Github Profile</a>
+        <div class="skills-items">
+            <img src="assets/html-5.png">
+            <img src="assets/css-3.png">
+            <!-- <h3>HTML</h3>
+            <h3>CSS</h3> -->
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1>Contact Me</h1> 
+        <div class = "contact-items"> 
+            <a href="mailto:kit27.am57@gmail.com"><img src="assets/mail.jpg"></a><br>
+            <a href="https://linkedin.com/in/vj-e" target="_blank"><img src="assets/linkdin.png"</a><br>
+            <a href="https://github.com/VJ-E" target="_blank"><img src="assets/github.jpg"></a>
+        </div>
     </section>
 </body>
 
