@@ -91,7 +91,7 @@ nav{
     justify-content: center;
 }
 
-.about-btn{
+.about-btn,.project-link{
     text-align: center;
     text-decoration: none;
     background-color: rgb(70, 70, 70);
@@ -106,7 +106,7 @@ nav{
     text-align: center;
     font-size: 50px;
 }
-.home-btn:hover,.about-btn:hover{
+.home-btn:hover,.about-btn:hover,.project-link:hover{
     background: blueviolet;
     transform: scale(1.15);
     transition: transform 0.5s;
@@ -184,3 +184,21 @@ nav{
 .experience , .about,.coding{
     background: #0f0f0f;
 }
+
+
+
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    gap:40px;
+}
+
+
+
+.project-img img{
+    width:600px;
+    height: auto;
+    border-radius: 50px;
+}   
