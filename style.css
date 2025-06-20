@@ -187,7 +187,7 @@ nav{
 
 
 
-.project{
+.project,.exp{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -197,8 +197,13 @@ nav{
 
 
 
-.project-img img{
+.project-img img, .exp-img img{
+    gap: 40px;
     width:600px;
     height: auto;
     border-radius: 50px;
 }   
+.exp-img{
+    background-color: rgb(255, 255, 255);
+    border-radius: 70px;
+}
